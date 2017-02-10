@@ -1,0 +1,13 @@
+site_name: Wowza-Rest Api Documentation
+site_description: Documentation for the Wowza Rest API developed by TOP-IX
+site_author: TOP-IX HackAdemy
+site_url: http://top-ix.org
+repo_url: https://github.com/topix-hackademy/contact-tools
+
+docs_dir: docs
+site_dir: site
+theme: mkdocs
+
+pages:
+- Home: index.md
+- ConnectionCounts: connectioncounts.md

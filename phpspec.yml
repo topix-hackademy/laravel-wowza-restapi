@@ -1,0 +1,14 @@
+formatter.name: pretty
+suites:
+    laravel_wowza_suite:
+        namespace: Topix\Hackademy\LaravelWowza
+        psr4_prefix: Topix\Hackademy\LaravelWowza
+extensions:
+    - PhpSpec\Extension\CodeCoverageExtension
+code_coverage:
+  format:
+    - html
+    - clover
+  output:
+    html: coverage
+    clover: coverage.xml

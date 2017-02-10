@@ -1,0 +1,259 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<coverage generated="1469741719">
+  <project timestamp="1469741719">
+    <package name="Topix\Hackademy\LaravelWowza\Api\Type">
+      <file name="/Users/gab88slash/Developer/laravel-wowza-restapi/src/Api/Type/ApplicationCountType.php">
+        <class name="ApplicationCountType" namespace="Topix\Hackademy\LaravelWowza\Api\Type">
+          <metrics complexity="3" methods="2" coveredmethods="2" conditionals="0" coveredconditionals="0" statements="2" coveredstatements="2" elements="4" coveredelements="4"/>
+        </class>
+        <line num="12" type="method" name="instances" visibility="public" complexity="1" crap="1" count="2"/>
+        <line num="14" type="stmt" count="2"/>
+        <line num="29" type="method" name="instancesData" visibility="public" complexity="2" crap="2" count="5"/>
+        <line num="31" type="stmt" count="5"/>
+        <metrics loc="36" ncloc="12" classes="1" methods="2" coveredmethods="2" conditionals="0" coveredconditionals="0" statements="2" coveredstatements="2" elements="4" coveredelements="4"/>
+      </file>
+      <file name="/Users/gab88slash/Developer/laravel-wowza-restapi/src/Api/Type/ConnectionCountType.php">
+        <class name="ConnectionCountType" namespace="Topix\Hackademy\LaravelWowza\Api\Type">
+          <metrics complexity="18" methods="11" coveredmethods="10" conditionals="0" coveredconditionals="0" statements="36" coveredstatements="35" elements="47" coveredelements="45"/>
+        </class>
+        <line num="28" type="method" name="__construct" visibility="public" complexity="3" crap="3.01" count="18"/>
+        <line num="30" type="stmt" count="18"/>
+        <line num="32" type="stmt" count="0"/>
+        <line num="34" type="stmt" count="18"/>
+        <line num="36" type="stmt" count="18"/>
+        <line num="37" type="stmt" count="18"/>
+        <line num="38" type="stmt" count="18"/>
+        <line num="39" type="stmt" count="18"/>
+        <line num="40" type="stmt" count="18"/>
+        <line num="41" type="stmt" count="18"/>
+        <line num="43" type="stmt" count="18"/>
+        <line num="48" type="method" name="getName" visibility="public" complexity="1" crap="1" count="3"/>
+        <line num="50" type="stmt" count="3"/>
+        <line num="56" type="method" name="getConnectionsCurrent" visibility="public" complexity="1" crap="1" count="4"/>
+        <line num="58" type="stmt" count="4"/>
+        <line num="64" type="method" name="getConnectionsTotal" visibility="public" complexity="1" crap="1" count="4"/>
+        <line num="66" type="stmt" count="4"/>
+        <line num="72" type="method" name="getConnectionsTotalAccepted" visibility="public" complexity="1" crap="1" count="4"/>
+        <line num="74" type="stmt" count="4"/>
+        <line num="80" type="method" name="getConnectionsTotalRejected" visibility="public" complexity="1" crap="1" count="4"/>
+        <line num="82" type="stmt" count="4"/>
+        <line num="88" type="method" name="getMessagesInBytesRate" visibility="public" complexity="1" crap="1" count="4"/>
+        <line num="90" type="stmt" count="4"/>
+        <line num="96" type="method" name="getMessagesOutBytesRate" visibility="public" complexity="1" crap="1" count="4"/>
+        <line num="98" type="stmt" count="4"/>
+        <line num="101" type="method" name="getInfo" visibility="public" complexity="1" crap="1" count="4"/>
+        <line num="104" type="stmt" count="4"/>
+        <line num="105" type="stmt" count="4"/>
+        <line num="106" type="stmt" count="4"/>
+        <line num="107" type="stmt" count="4"/>
+        <line num="108" type="stmt" count="4"/>
+        <line num="109" type="stmt" count="4"/>
+        <line num="110" type="stmt" count="4"/>
+        <line num="111" type="stmt" count="4"/>
+        <line num="115" type="method" name="children" visibility="public" complexity="5" crap="5" count="11"/>
+        <line num="117" type="stmt" count="11"/>
+        <line num="119" type="stmt" count="11"/>
+        <line num="120" type="stmt" count="11"/>
+        <line num="121" type="stmt" count="6"/>
+        <line num="123" type="stmt" count="6"/>
+        <line num="124" type="stmt" count="6"/>
+        <line num="125" type="stmt" count="6"/>
+        <line num="127" type="stmt" count="10"/>
+        <line num="129" type="stmt" count="11"/>
+        <line num="130" type="stmt" count="11"/>
+        <line num="132" type="method" name="childrenData" visibility="public" complexity="2" crap="2" count="11"/>
+        <line num="134" type="stmt" count="11"/>
+        <metrics loc="136" ncloc="109" classes="1" methods="11" coveredmethods="10" conditionals="0" coveredconditionals="0" statements="36" coveredstatements="35" elements="47" coveredelements="45"/>
+      </file>
+      <file name="/Users/gab88slash/Developer/laravel-wowza-restapi/src/Api/Type/InstanceCountType.php">
+        <class name="InstanceCountType" namespace="Topix\Hackademy\LaravelWowza\Api\Type">
+          <metrics complexity="3" methods="2" coveredmethods="2" conditionals="0" coveredconditionals="0" statements="2" coveredstatements="2" elements="4" coveredelements="4"/>
+        </class>
+        <line num="12" type="method" name="streams" visibility="public" complexity="1" crap="1" count="1"/>
+        <line num="14" type="stmt" count="1"/>
+        <line num="29" type="method" name="streamsData" visibility="public" complexity="2" crap="2" count="2"/>
+        <line num="31" type="stmt" count="2"/>
+        <metrics loc="33" ncloc="9" classes="1" methods="2" coveredmethods="2" conditionals="0" coveredconditionals="0" statements="2" coveredstatements="2" elements="4" coveredelements="4"/>
+      </file>
+      <file name="/Users/gab88slash/Developer/laravel-wowza-restapi/src/Api/Type/ServerCountType.php">
+        <class name="ServerCountType" namespace="Topix\Hackademy\LaravelWowza\Api\Type">
+          <metrics complexity="6" methods="4" coveredmethods="4" conditionals="0" coveredconditionals="0" statements="8" coveredstatements="8" elements="12" coveredelements="12"/>
+        </class>
+        <line num="24" type="method" name="__construct" visibility="public" complexity="2" crap="2" count="18"/>
+        <line num="26" type="stmt" count="18"/>
+        <line num="28" type="stmt" count="3"/>
+        <line num="30" type="stmt" count="18"/>
+        <line num="31" type="stmt" count="18"/>
+        <line num="32" type="stmt" count="18"/>
+        <line num="34" type="method" name="vhosts" visibility="public" complexity="1" crap="1" count="10"/>
+        <line num="36" type="stmt" count="10"/>
+        <line num="54" type="method" name="vhostsData" visibility="public" complexity="2" crap="2" count="4"/>
+        <line num="56" type="stmt" count="4"/>
+        <line num="60" type="method" name="getName" visibility="public" complexity="1" crap="1" count="1"/>
+        <line num="62" type="stmt" count="1"/>
+        <metrics loc="65" ncloc="40" classes="1" methods="4" coveredmethods="4" conditionals="0" coveredconditionals="0" statements="8" coveredstatements="8" elements="12" coveredelements="12"/>
+      </file>
+      <file name="/Users/gab88slash/Developer/laravel-wowza-restapi/src/Api/Type/StreamCountType.php">
+        <class name="StreamCountType" namespace="Topix\Hackademy\LaravelWowza\Api\Type">
+          <metrics complexity="12" methods="10" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="28" coveredstatements="2" elements="38" coveredelements="2"/>
+        </class>
+        <line num="21" type="method" name="__construct" visibility="public" complexity="3" crap="7.93" count="1"/>
+        <line num="23" type="stmt" count="1"/>
+        <line num="25" type="stmt" count="1"/>
+        <line num="27" type="stmt" count="0"/>
+        <line num="29" type="stmt" count="0"/>
+        <line num="30" type="stmt" count="0"/>
+        <line num="31" type="stmt" count="0"/>
+        <line num="32" type="stmt" count="0"/>
+        <line num="33" type="stmt" count="0"/>
+        <line num="34" type="stmt" count="0"/>
+        <line num="35" type="stmt" count="0"/>
+        <line num="37" type="stmt" count="0"/>
+        <line num="42" type="method" name="getSessionsFlash" visibility="public" complexity="1" crap="2" count="0"/>
+        <line num="44" type="stmt" count="0"/>
+        <line num="50" type="method" name="getSessionsCupertino" visibility="public" complexity="1" crap="2" count="0"/>
+        <line num="52" type="stmt" count="0"/>
+        <line num="58" type="method" name="getSessionsSanJose" visibility="public" complexity="1" crap="2" count="0"/>
+        <line num="60" type="stmt" count="0"/>
+        <line num="66" type="method" name="getSessionsSmooth" visibility="public" complexity="1" crap="2" count="0"/>
+        <line num="68" type="stmt" count="0"/>
+        <line num="74" type="method" name="getSessionsRtsp" visibility="public" complexity="1" crap="2" count="0"/>
+        <line num="76" type="stmt" count="0"/>
+        <line num="82" type="method" name="getSessionsMpegDash" visibility="public" complexity="1" crap="2" count="0"/>
+        <line num="84" type="stmt" count="0"/>
+        <line num="90" type="method" name="getSessionTotal" visibility="public" complexity="1" crap="2" count="0"/>
+        <line num="92" type="stmt" count="0"/>
+        <line num="98" type="method" name="getName" visibility="public" complexity="1" crap="2" count="0"/>
+        <line num="100" type="stmt" count="0"/>
+        <line num="103" type="method" name="getInfo" visibility="public" complexity="1" crap="2" count="0"/>
+        <line num="106" type="stmt" count="0"/>
+        <line num="107" type="stmt" count="0"/>
+        <line num="108" type="stmt" count="0"/>
+        <line num="109" type="stmt" count="0"/>
+        <line num="110" type="stmt" count="0"/>
+        <line num="111" type="stmt" count="0"/>
+        <line num="112" type="stmt" count="0"/>
+        <line num="113" type="stmt" count="0"/>
+        <line num="114" type="stmt" count="0"/>
+        <metrics loc="117" ncloc="93" classes="1" methods="10" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="28" coveredstatements="2" elements="38" coveredelements="2"/>
+      </file>
+      <file name="/Users/gab88slash/Developer/laravel-wowza-restapi/src/Api/Type/VHostCountType.php">
+        <class name="VHostCountType" namespace="Topix\Hackademy\LaravelWowza\Api\Type">
+          <metrics complexity="3" methods="2" coveredmethods="2" conditionals="0" coveredconditionals="0" statements="2" coveredstatements="2" elements="4" coveredelements="4"/>
+        </class>
+        <line num="19" type="method" name="applications" visibility="public" complexity="1" crap="1" count="6"/>
+        <line num="21" type="stmt" count="6"/>
+        <line num="39" type="method" name="applicationsData" visibility="public" complexity="2" crap="2" count="5"/>
+        <line num="41" type="stmt" count="5"/>
+        <metrics loc="44" ncloc="11" classes="1" methods="2" coveredmethods="2" conditionals="0" coveredconditionals="0" statements="2" coveredstatements="2" elements="4" coveredelements="4"/>
+      </file>
+    </package>
+    <package name="Topix\Hackademy\LaravelWowza\Api">
+      <file name="/Users/gab88slash/Developer/laravel-wowza-restapi/src/Api/WowzaConnectionCount.php">
+        <class name="WowzaConnectionCount" namespace="Topix\Hackademy\LaravelWowza\Api">
+          <metrics complexity="3" methods="3" coveredmethods="3" conditionals="0" coveredconditionals="0" statements="14" coveredstatements="14" elements="17" coveredelements="17"/>
+        </class>
+        <line num="47" type="method" name="__construct" visibility="public" complexity="1" crap="1" count="20"/>
+        <line num="49" type="stmt" count="20"/>
+        <line num="50" type="stmt" count="20"/>
+        <line num="51" type="stmt" count="20"/>
+        <line num="52" type="stmt" count="20"/>
+        <line num="53" type="stmt" count="20"/>
+        <line num="55" type="method" name="connectionCountsRaw" visibility="public" complexity="1" crap="1" count="18"/>
+        <line num="57" type="stmt" count="18"/>
+        <line num="58" type="stmt" count="18"/>
+        <line num="59" type="stmt" count="18"/>
+        <line num="60" type="stmt" count="18"/>
+        <line num="62" type="stmt" count="18"/>
+        <line num="64" type="stmt" count="18"/>
+        <line num="65" type="stmt" count="1"/>
+        <line num="67" type="method" name="connectionCounts" visibility="public" complexity="1" crap="1" count="15"/>
+        <line num="69" type="stmt" count="15"/>
+        <line num="70" type="stmt" count="15"/>
+        <metrics loc="73" ncloc="48" classes="1" methods="3" coveredmethods="3" conditionals="0" coveredconditionals="0" statements="14" coveredstatements="14" elements="17" coveredelements="17"/>
+      </file>
+    </package>
+    <package name="Topix\Hackademy\LaravelWowza">
+      <file name="/Users/gab88slash/Developer/laravel-wowza-restapi/src/Facade.php">
+        <class name="Facade" namespace="Topix\Hackademy\LaravelWowza">
+          <metrics complexity="1" methods="1" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="3" coveredstatements="0" elements="4" coveredelements="0"/>
+        </class>
+        <line num="9" type="method" name="getFacadeAccessor" visibility="protected" complexity="1" crap="2" count="0"/>
+        <line num="10" type="stmt" count="0"/>
+        <line num="11" type="stmt" count="0"/>
+        <line num="12" type="stmt" count="0"/>
+        <metrics loc="13" ncloc="11" classes="1" methods="1" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="3" coveredstatements="0" elements="4" coveredelements="0"/>
+      </file>
+      <file name="/Users/gab88slash/Developer/laravel-wowza-restapi/src/ServiceProvider.php">
+        <class name="ServiceProvider" namespace="Topix\Hackademy\LaravelWowza">
+          <metrics complexity="2" methods="1" coveredmethods="1" conditionals="0" coveredconditionals="0" statements="2" coveredstatements="2" elements="3" coveredelements="3"/>
+        </class>
+        <line num="26" type="method" name="anonymous function" complexity="1" crap="1" count="11"/>
+        <line num="27" type="stmt" count="1"/>
+        <line num="28" type="stmt" count="11"/>
+        <line num="29" type="stmt" count="11"/>
+        <metrics loc="30" ncloc="18" classes="1" methods="1" coveredmethods="1" conditionals="0" coveredconditionals="0" statements="3" coveredstatements="3" elements="4" coveredelements="4"/>
+      </file>
+    </package>
+    <package name="Topix\Hackademy\LaravelWowza\Handler">
+      <file name="/Users/gab88slash/Developer/laravel-wowza-restapi/src/Handler/WowzaHandlerSdk.php">
+        <class name="WowzaHandlerSdk" namespace="Topix\Hackademy\LaravelWowza\Handler">
+          <metrics complexity="20" methods="15" coveredmethods="15" conditionals="0" coveredconditionals="0" statements="36" coveredstatements="36" elements="51" coveredelements="51"/>
+        </class>
+        <line num="43" type="method" name="url" visibility="public" complexity="1" crap="1" count="3"/>
+        <line num="45" type="stmt" count="3"/>
+        <line num="47" type="stmt" count="3"/>
+        <line num="50" type="method" name="port" visibility="public" complexity="1" crap="1" count="3"/>
+        <line num="52" type="stmt" count="3"/>
+        <line num="54" type="stmt" count="3"/>
+        <line num="57" type="method" name="credentials" visibility="public" complexity="1" crap="1" count="3"/>
+        <line num="59" type="stmt" count="3"/>
+        <line num="60" type="stmt" count="3"/>
+        <line num="62" type="stmt" count="3"/>
+        <line num="69" type="method" name="getUrl" visibility="public" complexity="1" crap="1" count="4"/>
+        <line num="71" type="stmt" count="4"/>
+        <line num="77" type="method" name="setUrl" visibility="public" complexity="1" crap="1" count="4"/>
+        <line num="79" type="stmt" count="4"/>
+        <line num="80" type="stmt" count="4"/>
+        <line num="85" type="method" name="getPort" visibility="public" complexity="1" crap="1" count="3"/>
+        <line num="86" type="stmt" count="1"/>
+        <line num="87" type="stmt" count="3"/>
+        <line num="93" type="method" name="setPort" visibility="public" complexity="1" crap="1" count="4"/>
+        <line num="95" type="stmt" count="4"/>
+        <line num="96" type="stmt" count="4"/>
+        <line num="101" type="method" name="getUsername" visibility="public" complexity="1" crap="1" count="4"/>
+        <line num="103" type="stmt" count="4"/>
+        <line num="109" type="method" name="setUsername" visibility="public" complexity="1" crap="1" count="4"/>
+        <line num="111" type="stmt" count="4"/>
+        <line num="112" type="stmt" count="4"/>
+        <line num="117" type="method" name="getPassword" visibility="public" complexity="1" crap="1" count="4"/>
+        <line num="119" type="stmt" count="4"/>
+        <line num="125" type="method" name="setPassword" visibility="public" complexity="1" crap="1" count="4"/>
+        <line num="127" type="stmt" count="4"/>
+        <line num="128" type="stmt" count="4"/>
+        <line num="130" type="method" name="with" visibility="public" complexity="3" crap="3" count="2"/>
+        <line num="133" type="stmt" count="2"/>
+        <line num="135" type="stmt" count="2"/>
+        <line num="136" type="stmt" count="2"/>
+        <line num="138" type="stmt" count="1"/>
+        <line num="140" type="stmt" count="2"/>
+        <line num="144" type="method" name="getWowzaRestApiClient" visibility="private" complexity="1" crap="1" count="1"/>
+        <line num="146" type="stmt" count="1"/>
+        <line num="147" type="stmt" count="1"/>
+        <line num="148" type="stmt" count="1"/>
+        <line num="149" type="stmt" count="1"/>
+        <line num="150" type="stmt" count="1"/>
+        <line num="151" type="stmt" count="1"/>
+        <line num="153" type="stmt" count="1"/>
+        <line num="163" type="method" name="__call" visibility="public" complexity="3" crap="3" count="2"/>
+        <line num="165" type="stmt" count="2"/>
+        <line num="167" type="stmt" count="2"/>
+        <line num="170" type="stmt" count="2"/>
+        <line num="176" type="method" name="getWrappedObject" visibility="public" complexity="2" crap="2" count="2"/>
+        <line num="178" type="stmt" count="2"/>
+        <metrics loc="180" ncloc="126" classes="1" methods="15" coveredmethods="15" conditionals="0" coveredconditionals="0" statements="36" coveredstatements="36" elements="51" coveredelements="51"/>
+      </file>
+    </package>
+    <metrics files="10" loc="727" ncloc="477" classes="10" methods="51" coveredmethods="39" conditionals="0" coveredconditionals="0" statements="134" coveredstatements="104" elements="185" coveredelements="143"/>
+  </project>
+</coverage>
